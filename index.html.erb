@@ -1,0 +1,18 @@
+<h1>Listing employees</h1>
+ 
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+ 
+  <% @employees.each do |employee| %>
+    <tr>
+      <td><%= employee.Name%></td>
+      <td><%= employee.Project %></td>
+      <td><%= employee.Team_leader %></td>
+      <td><%= employee.Skill_number %></td>
+      <td><%= link_to 'Show', employee_path(employee) %></td>
+    </tr>
+  <% end %>
+</table>  

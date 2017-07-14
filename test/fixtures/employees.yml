@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Name: MyString
+  Project: MyString
+  Team_lead: MyText
+  Skill_number: MyString
+
+two:
+  Name: MyString
+  Project: MyString
+  Team_lead: MyText
+  Skill_number: MyString
